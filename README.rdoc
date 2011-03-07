@@ -1,11 +1,11 @@
-= SixArm.com » Ruby » Factory Girl examples for automatic tests
+= SixArm.com » Ruby » Factory Girl test examples for Rails
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2008-2011 Joel Parker Henderson
 License:: See LICENSE.txt file
 
 Factory Girl examples for the ThoughtBot factory_girl gem.
-These are useful for our testing Rof uby On Rails applications.
+These are useful for our testing Ruby On Rails applications.
 
 These examples are built independent of any mock data tool.
 You will most likely want to change these examples to suit
