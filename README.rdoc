@@ -19,3 +19,47 @@ We like these mock data tools:
   - random_data: good for plausible anames, ddresses, etc.
 
 
+
+== To create a collection of items
+
+Simply call the factory like this:
+
+   3.times { Factory(:user) }
+
+
+== To create a collection for the "many" in a has_many
+
+Do it in Factory Girl after_create on the belonging object.
+So if you wanted a test with a Company with 3 Users:
+
+  Factory.define :company_with_three_users do |blog|
+    company.after_create do |belonging|
+      3.times { Factory(:user, :company => belonging) }
+    end
+  end
+
+
+== To create records that share parameters
+
+Write a helper method:
+
+  # in test/factories.rb or spec/factories.rb
+  def two_companies_for(user = Factory(:user))
+    [Factory(:company), Factory(:company)]
+  end
+
+
+== To connect cucumber steps for dynamic factories
+
+Parse the cucumber step then send the match as a parameter:
+
+  Given /^typical (\w+)/ do |name|
+    Factory(name)
+  end
+
+
+== To do more advanced expert setup with callbacks
+
+See this post about callbacks before and after factories: 
+
+   http://robots.thoughtbot.com/post/254496652/aint-no-calla-back-girl
