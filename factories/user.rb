@@ -16,11 +16,11 @@
 # then set the email_access_confirmation attribute
 # by using a block so we can access the email_address.
 
-Factory.define :user do |user_factory|
-  user_factory.username { Factory.next :username }
-  user_factory.email_address { Factory.next :email_address }
-  user_factory.email_confirmation {|_user| u_user.email }
-  user_factory.password { Factory.next :password }
-  user_factory.password_confirmation {|_user| _user.password }
-  user_factory.access_roles []
+Factory.define :user do |user|
+  user.username { Factory.next :username }
+  user.email_address { Factory.next :email_address }
+  user.email_confirmation {|_user| _user.email }
+  user.password { Factory.next :password }
+  user.password_confirmation {|_user| _user.password }
+  user.access_roles []
 end

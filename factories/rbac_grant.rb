@@ -6,5 +6,5 @@
 # Role Based Access Control (RBAC) Grant.
 # This factory is a placeholder for our logic.
 
-Factory.define :rbac_grant do |_grant|
+Factory.define :rbac_grant do |grant|
 end
