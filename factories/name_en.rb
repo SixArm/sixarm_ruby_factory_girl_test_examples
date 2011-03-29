@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 #
+# SixArm.com Factory Girl Examples
+# http://sixarm.com
+#
 # Factory to generate a name using English-oriented characters.
 
 Factory.define :name_en do

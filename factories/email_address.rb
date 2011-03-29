@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 #
+# SixArm.com Factory Girl Examples
+# http://sixarm.com
+#
 # Factory sequence to generate an email address.
 # =>
 #  user1@example.com
