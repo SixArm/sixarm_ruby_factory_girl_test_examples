@@ -2,7 +2,7 @@
 #
 # SixArm.com Factory Girl Examples
 # http://sixarm.com
-#
+
 # User example has these fields:
 #   - username
 #   - email_address

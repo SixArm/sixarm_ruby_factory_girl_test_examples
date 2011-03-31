@@ -2,15 +2,11 @@
 #
 # SixArm.com Factory Girl Examples
 # http://sixarm.com
+
+# Generate a random password.
 #
-# Factory sequence to generate a password.
-# =>
-#  password1
-#  password2
-#  password3
+#   password => "hgasdklasnbaf"
 
-Factory.sequence :password do |n|
-  "password#{n}"
+def password
+  ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'].sample(rand(10)+20)
 end
-
-

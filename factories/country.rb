@@ -2,7 +2,7 @@
 #
 # SixArm.com Factory Girl Examples
 # http://sixarm.com
-#
+
 # This Country example shows how we create random names:
 # we want names that are random gibbrish (not real names)
 # and we want names that have international characters.

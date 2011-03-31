@@ -2,7 +2,7 @@
 #
 # SixArm.com Factory Girl Examples
 # http://sixarm.com
-#
+
 # Role Based Access Control (RBAC) Object.
 # This factory is a placeholder for our logic.
 
