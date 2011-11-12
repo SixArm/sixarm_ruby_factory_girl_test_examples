@@ -9,7 +9,10 @@
 #   Factory(:password_sequence) => "password2"
 #   Factory(:password_sequence) => "password3"
 
-Factory.sequence :password_sequence do |n|
-  "password#{n}"
-end
+FactoryGirl.define do
 
+  sequence :password_sequence do |n|
+    "password#{n}"
+  end
+
+end

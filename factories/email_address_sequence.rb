@@ -9,7 +9,10 @@
 #   Factory(:email_address_sequence) => "user2@example.com"
 #   Factory(:email_address_sequence) => "user3@example.com"
 
-Factory.sequence :email_address_sequence do |n|
-  "user#{n}@example.com"
-end
+FactoryGirl.define do
 
+  sequence :email_address_sequence do |n|
+    "user#{n}@example.com"
+  end
+
+end

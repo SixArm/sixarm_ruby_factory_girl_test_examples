@@ -9,7 +9,10 @@
 #   Factory(:uuid_sequence) => "uuid2"
 #   Factory(:uuid_sequence) => "uuid3"
 
-Factory.sequence :uuid_sequence do |n|
-  "uuid#{n}"
-end
+FactoryGirl.define do
 
+  sequence :uuid_sequence do |n|
+    "uuid#{n}"
+  end
+
+end

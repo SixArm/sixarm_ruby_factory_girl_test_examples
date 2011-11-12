@@ -9,6 +9,10 @@
 #   Factory(:nickname_sequence) => "nickname2"
 #   Factory(:nickname_sequence) => "nickname3"
 
-Factory.sequence :nickname_sequence do |n|
-  "nickname#{n}"
+FactoryGirl.define do
+
+  sequence :nickname_sequence do |n|
+    "nickname#{n}"
+  end
+
 end

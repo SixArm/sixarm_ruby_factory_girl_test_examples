@@ -6,5 +6,9 @@
 # Role Based Access Control (RBAC) Role.
 # This factory is a placeholder for our logic.
 
-Factory.define :rbac_role do |role|
+FactoryGirl.define 
+ 
+  factory :rbac_role do |role|
+  end
+
 end

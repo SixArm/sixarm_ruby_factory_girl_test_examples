@@ -5,6 +5,10 @@
 
 # Role Based Access Control (RBAC) Permission.
 # This factory is a placeholder for our logic.
-  
-Factory.define :rbac_permission do |permission|
+
+FactoryGirl.define do
+
+  factory :rbac_permission do |permission|
+  end
+
 end

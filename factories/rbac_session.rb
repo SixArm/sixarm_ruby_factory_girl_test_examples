@@ -6,5 +6,9 @@
 # Role Based Access Control (RBAC) Session.
 # This factory is a placeholder for our logic.
 
-Factory.define :rbac_session do |session|
+FactoryGirl.define do
+
+  factory :rbac_session do |session|
+  end
+
 end

@@ -9,7 +9,10 @@
 #   Factory(:username_sequence) => "username2"
 #   Factory(:username_sequence) => "username3"
 
-Factory.sequence :username_sequence do |n|
-  "username#{n}"
-end
+FactoryGirl.define do
 
+  sequence :username_sequence do |n|
+    "username#{n}"
+  end
+
+end

@@ -6,5 +6,9 @@
 # Role Based Access Control (RBAC) Assignment.
 # This factory is a placeholder for our logic.
 
-Factory.define :rbac_assignment do |assignment|
+FactoryGirl.define do
+
+  :rbac_assignment do |assignment|
+  end
+
 end

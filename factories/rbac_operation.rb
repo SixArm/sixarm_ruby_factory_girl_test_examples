@@ -6,5 +6,9 @@
 # Role Based Access Control (RBAC) Operation.
 # This factory is a placeholder for our logic.
 
-Factory.define :rbac_operation do |operation|
+FactoryGirl.define do
+
+  factory :rbac_operation do |operation|
+  end
+
 end
