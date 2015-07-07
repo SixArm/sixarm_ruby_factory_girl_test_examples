@@ -100,8 +100,3 @@ Parse the cucumber step then send the match as a parameter:
 See this post about callbacks before and after factories: 
 
     http://robots.thoughtbot.com/post/254496652/aint-no-calla-back-girl
-
-
-## Changes
-
-* 2012-03-14 1.0.0 Update docs
