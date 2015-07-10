@@ -2,7 +2,7 @@
 
 * Docs: <http://sixarm.com/sixarm_ruby_/doc>
 * Repo: <http://github.com/sixarm/sixarm_ruby_>
-* Email: Joel Parker Henderson, <joel@sixarm.com>
+<!--HEADER-SHUT-->
 
 
 ## Introduction
@@ -15,32 +15,29 @@ For docs go to <http://sixarm.com/sixarm_ruby_/doc>
 Want to help? We're happy to get pull requests.
 
 
-## Install quickstart
+<!--INSTALL-OPEN-->
 
-Install:
+## Install
 
-    gem install 
+To install using a Gemfile, add this:
 
-Bundler:
+    gem "", ">= , < 1"
 
-    gem "", "="
+To install using the command line, run this:
 
-Require:
+    gem install  -v ">= , < 1"
+
+To install using the command with high security, run this:
+
+    wget http://sixarm.com/sixarm.pem
+    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
+    gem install  -v ">= , < 1" --trust-policy HighSecurity
+
+To require the gem in your code:
 
     require ""
 
-
-## Install with security (optional)
-
-To enable high security for all our gems:
-
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem
-    gem sources --add http://sixarm.com
-
-To install with high security:
-
-    gem install sixarm_ruby_ --trust-policy HighSecurity
+<!--INSTALL-SHUT-->
 
 
 ## Details
