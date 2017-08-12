@@ -1,4 +1,4 @@
-# Ruby » <br> Factory Girl test examples for Rails
+SixArm.com → Ruby → <br> Factory Girl test examples for Rails
 
 * Docs: <http://sixarm.com/sixarm_ruby_/doc>
 * Repo: <http://github.com/sixarm/sixarm_ruby_>
